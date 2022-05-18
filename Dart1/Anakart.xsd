@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Anakart" targetNamespace="http://tempuri.org/Anakart.xsd" xmlns:mstns="http://tempuri.org/Anakart.xsd" xmlns="http://tempuri.org/Anakart.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Anakart" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Anakart" msprop:Generator_DataSetName="Anakart">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="anakart" msprop:Generator_RowEvHandlerName="anakartRowChangeEventHandler" msprop:Generator_RowDeletedName="anakartRowDeleted" msprop:Generator_RowDeletingName="anakartRowDeleting" msprop:Generator_RowEvArgName="anakartRowChangeEvent" msprop:Generator_TablePropName="_anakart" msprop:Generator_RowChangedName="anakartRowChanged" msprop:Generator_RowChangingName="anakartRowChanging" msprop:Generator_TableClassName="anakartDataTable" msprop:Generator_RowClassName="anakartRow" msprop:Generator_TableVarName="tableanakart" msprop:Generator_UserTableName="anakart">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Anakart" msprop:Generator_ColumnPropNameInRow="Anakart" msprop:Generator_ColumnPropNameInTable="AnakartColumn" msprop:Generator_ColumnVarNameInTable="columnAnakart" msprop:Generator_UserColumnName="Anakart" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Anakart.Fiyat" msprop:Generator_ColumnPropNameInRow="_Anakart_Fiyat" msprop:Generator_ColumnPropNameInTable="_Anakart_FiyatColumn" msprop:Generator_ColumnVarNameInTable="_columnAnakart_Fiyat" msprop:Generator_UserColumnName="Anakart.Fiyat" type="xs:int" minOccurs="0" />
+              <xs:element name="İşlemci" msprop:Generator_ColumnPropNameInRow="İşlemci" msprop:Generator_ColumnPropNameInTable="İşlemciColumn" msprop:Generator_ColumnVarNameInTable="columnİşlemci" msprop:Generator_UserColumnName="İşlemci" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="islemci.Fiyat" msprop:Generator_ColumnPropNameInRow="_islemci_Fiyat" msprop:Generator_ColumnPropNameInTable="_islemci_FiyatColumn" msprop:Generator_ColumnVarNameInTable="_columnislemci_Fiyat" msprop:Generator_UserColumnName="islemci.Fiyat" type="xs:int" minOccurs="0" />
+              <xs:element name="Expr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_UserColumnName="Expr2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
